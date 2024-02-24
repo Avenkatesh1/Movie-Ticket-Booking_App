@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+}
+
+.srch {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.srch input {
+    height: 40px;
+    width: 370px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+}
+
+.srch i {
+    position: absolute;
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    column-gap: 30px;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn input {
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner .left img {
+    width: 65vw;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+.banner .right {
+    background-color: whitesmoke;
+    width: 34vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    align-items: center;
+}
+
+.banner .right .main-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    row-gap: 40px;
+}
+
+.banner .right .main-box .box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.banner .right .main-box .box1 select {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.banner .right .main-box .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .right .main-box .btn button {
+    padding: 15px 174px;
+    border: none;
+    background-color: #ff0000db;
+    width: max-content;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.movie-sec{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(0, 132, 255); */
+}
+
+.movie-sec .menu{
+    display: flex;
+    column-gap: 20px;
+}
+
+.movie-sec .menu .show{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.movie-sec .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+}
+
+.movie-sec .main-box{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-sec .main-box .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    column-gap: 10px;
+    margin: 20px;
+}
+
+.movie-sec .main-box .box img{
+    width: 130px;
+    height: 188px;
+}
+
+.movie-sec .main-box .box .txt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.movie-sec .main-box .box .re{
+    position: absolute;
+    margin-left: -222px;
+    color: yellow;
+    margin-top: 11%;
+    font-weight: bold;
+}
+
+.movie-sec .main-box .box .txt button{
+    background: red;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.foot{
+    height: 200px;
+    background-image: linear-gradient(45deg, #051a22, #050528);
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.foot .main-box{
+    column-gap: 200px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.foot .box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.foot .box .item{
+    display: flex;
+    column-gap: 30px;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.foot .box .item a{
+    color: rgb(114, 110, 110);
+    text-decoration: none;
+}
+
+.foot .box4 .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 14px;
+}
+
+.foot .box4 .social i{
+    font-size: 25px;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.foot .copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
